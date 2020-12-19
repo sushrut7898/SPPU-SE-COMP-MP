@@ -1,0 +1,232 @@
+MIT COLLEGE OF ENGINEERING, KOTHRUD,
+
+LIST OF ASSIGNMENTS
+PUNE
+
+
+
+
+
+
+
+
+Department: Computer Engineering
+
+
+Academic Year: 2017-18
+Semester: I
+
+
+Subject: OOP Lab
+Class: SE
+
+
+List of Assignments
+
+
+
+
+
+Sr.
+Title of Assignment
+
+
+No.
+
+
+
+
+
+Compulsory Assignment
+
+
+
+
+
+1.
+Install, Configure 64 bit Linux Operating Systems, study basic architecture,
+
+
+memory system, and learn basic administration
+
+
+
+
+
+
+A)
+Group A Assignments (Any 5)
+
+
+2.
+Write a C++ program create a calculator for an arithmetic operator (+, -, *,
+
+
+/). The program should take two operands from user and performs the opera-
+
+
+tion on those two operands depending upon the operator entered by user.
+
+
+Use a switch statement to select the operation. Finally, display the result.
+
+
+Some sample interaction with the program might look like this:
+
+
+Enter first number, operator, second number: 10 / 3
+
+
+
+Answer = 3.333333
+
+
+
+Do another (y/n)? y
+
+
+
+Enter first number, operator, second number: 12 + 100
+
+
+Answer = 112
+
+
+
+Do another (y/n)? n
+
+
+3.
+Implement a class Complex which represents the Complex Number data
+
+
+type. Implement the following operations:
+
+
+
+1. Constructor (including a default constructor which creates the complex
+
+
+number 0+0i).
+
+
+
+2. Overloaded operator+ to add two complex numbers.
+
+
+3. Overloaded operator* to multiply two complex numbers.
+
+
+4. Overloaded << and >> to print and read Complex Numbers.
+
+4.
+Implement a class Quadratic that represents degree two polynomials i.e.,
+
+
+polynomials of type ax2+bx+c. The class will require three data members
+
+
+corresponding to a, b and c. Implement the following operations:
+
+
+1. A constructor (including a default constructor which creates the 0 poly-
+
+
+nomial).
+
+
+
+2. Overloaded operator+ to add two polynomials of degree 2.
+
+
+3. Overloaded << and >> to print and read polynomials. To do this, you will
+
+
+need to decide what you want your input and output format to look like.
+
+
+4. A function eval that computes the value of a polynomial for a given value
+
+
+of x.
+
+
+
+5. A function that computes the two solutions of the equation ax2+bx+c=0.
+
+5.
+Create a class Rational Number (fractions) with the following capabilities:
+
+
+a) Create a constructor that prevents a 0 denominator in a fraction, reduces
+
+
+or simplifies fractions that are not in reduced form and avoids negative de-
+
+
+b) Overload the addition, subtraction, multiplication and division operators
+
+
+
+for this class.
+c) Overload the relational and equality operators for this class.
+
+
+6.
+Develop an object oriented program in C++ to create a database of student information system containing the following information: Name, Roll num- ber, Class, division, Date of Birth, Blood group, Contact address, telephone
+number, driving licence no. etc Construct the database with suitable member
+functions for initializing and destroying the data viz constructor, default con-
+structor, Copy constructor, destructor, static member functions, friend class,
+this pointer, inline code and dynamic memory allocation operators-new and
+delete.
+
+7.
+A book shop maintains the inventory of books that are being sold at the
+shop. The list includes details such as author, title, price, publisher and stock
+position. Whenever a customer wants a book, the sales person inputs the title
+and author and the system searches the list and displays whether it is availa-
+ble or not. If it is not, an appropriate message is displayed. If it is, then the
+system displays the book details and requests for the number of copies re-
+quired. If the requested copies book details and requests for the number of
+copies required. If the requested copies are available, the total cost of the re-
+quested copies is displayed; otherwise the message ―Required copies not in
+stock‖ is displayed. Design a system using a class called books with suitable
+member functions and Constructors. Use new operator in constructors to al-
+locate memory space required. Implement C++ program for the system
+
+8.
+Create a class template to represent a generic vector. Include following member functions:
+    • To create the vector.
+    • To modify the value of a given element
+
+    • To multiply by a scalar value
+    • To display the vector in the form (10,20,30,…)
+
+9.
+Imagine a publishing company which does marketing for book and audio-
+cassette versions. Create a class publication that stores the title (a string) and
+price (type float) of a publication. From this class derive two classes: book,
+which adds a page count (type int), and tape, which adds a playing time in
+minutes (type float).
+Write a program that instantiates the book and tape classes, allows user to
+enter data and displays the data members. If an exception is caught, replace
+ all the data member values with zero values.
+
+10.
+Create employee bio-data using following classes i) Personal record
+ii))Professional record iii) Academic record Assume appropriate data mem-
+bers and member function to accept required data & print bio-data. Create
+bio-data using multiple inheritance using C++.
+
+11.
+Write a function in C++ to count and display the number of lines not starting All Batches with alphabet 'A' present in a text file "STORY.TXT"
+
+Example:
+If the file "STORY.TXT" contains the following lines 
+The roses are red
+A girl is playing there
+There is a playground
+An aero plane is in the sky
+Numbers are not allowed in the password
+The function should display the output as 3
+
