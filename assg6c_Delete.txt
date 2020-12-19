@@ -1,0 +1,45 @@
+section .data
+
+msg db "Error",10
+msglen equ $-msg
+
+%macro operate 4
+	mov rax,%1
+	mov rdi,%2
+	mov rsi,%3
+	mov rdx,%4
+	syscall
+	%endmacro
+
+section .bss
+
+fname resb 15
+buff resb 512
+fd resq 1
+bufflen resw 1
+
+section .text
+global _start
+ _start:
+		pop r8
+		cmp r8,02
+		je down
+		operate 1,1,msg,msglen
+		jmp exit
+	down:	
+		pop r8
+
+		pop r8
+		mov esi,fname
+		up:    
+		mov al,[r8]
+		mov [esi],al
+		inc r8
+		inc esi
+		cmp al,00
+		jne up
+
+		operate 87,fname,0,0
+	exit:
+		operate 60,0,0,0	
+
